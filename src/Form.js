@@ -7,7 +7,7 @@ class Form extends React.Component {
   constructor(props){
 
     super(props);
-    this.state={serialNumbers: [' Seperate Numbers by a comma or space']}
+    this.state={serialNumbers: ['Seperate Numbers by a comma or space']}
 
     this.handleChange=this.handleChange.bind(this);
     this.handleSubmit=this.handleSubmit.bind(this);
@@ -19,7 +19,7 @@ class Form extends React.Component {
     console.log("this.state.serialNumbers Updated")
     let serialNumberArray=[];
 
-    {event.target.value.split(/[ ,]+/).map((code)=>
+    {event.target.value.split(/[,]+/).map((code)=>
       serialNumberArray.push(code)
     )}
 
