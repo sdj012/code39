@@ -7,7 +7,7 @@ class Form extends React.Component {
   constructor(props){
 
     super(props);
-    this.state={serialNumbers: [' : Seperate Numbers by a comma or space']}
+    this.state={serialNumbers: [' Seperate Numbers by a comma or space']}
 
     this.handleChange=this.handleChange.bind(this);
     this.handleSubmit=this.handleSubmit.bind(this);
