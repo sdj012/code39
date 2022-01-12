@@ -37,7 +37,7 @@ class Form extends React.Component {
 
   createImageSourceCode(barcode){
 
-    let code="https://barcode.tec-it.com/barcode.ashx?data="+barcode+"&code=Code128";
+    let code="https://barcode.tec-it.com/barcode.ashx?data="+barcode+"&code=Code39";
     return code;
 
   }
