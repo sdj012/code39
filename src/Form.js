@@ -52,7 +52,7 @@ class Form extends React.Component {
     <div>
 
       <div class="topnav">
-        <a class="active" href="#home">Serial Number Builder</a>
+        <a class="active" href="#home">Code 39 Serial Number Builder</a>
       </div>
 
       {/* <button onClick=""></button> */}
