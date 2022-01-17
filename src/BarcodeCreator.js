@@ -12,7 +12,7 @@ class BarcodeCreator extends React.Component {
 
   createImageSourceCode(){
 
-    let code="https://barcode.tec-it.com/barcode.ashx?data="+this.state.serialNumber+"&code=Code39";
+    let code="https://barcode.tec-it.com/barcode.ashx?data=S"+this.state.serialNumber+"&code=Code39";
     return code;
 
   }
